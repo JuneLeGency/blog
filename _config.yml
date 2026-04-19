@@ -1,0 +1,19 @@
+title: JuneLeGency's Blog
+description: 个人博客 — 记录技术与生活
+author: JuneLeGency
+email: lichen900210@gmail.com
+
+url: "https://JuneLeGency.github.io"
+baseurl: "/blog"
+
+theme: minima
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+minima:
+  date_format: "%Y-%m-%d"
